@@ -16,7 +16,7 @@ lazy_static! {
 	static ref DB_PORT_NAME: &'static str = "INFLUX_PORT";
 	static ref DB_ADDR_NAME: &'static str = "INFLUX_ADDR";
 	static ref MAX_EXPIRATION_NAME: &'static str = "INFLUX_MAX_EXPIRATION";
-	static ref  MAX_EXPIRATION_DEFAULT: Duration = Duration::new(60, 0);
+	static ref MAX_EXPIRATION_DEFAULT: Duration = Duration::new(60, 0);
 	static ref MINIMUM_WAIT_NAME: &'static str = "INFLUX_WAIT";
 	static ref MINIMUM_WAIT_DEFAULT: f64 = 2.5f64;
 }
